@@ -1,0 +1,2 @@
+<?php //check if error is set and display if also display error for non javascript users
+	if(!empty($_SESSION["error"])){ echo "<h1>".$_SESSION["error"]."</h1>"; } ?><noscript><h1>Please enable Javascript.</h1></noscript>
